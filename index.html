@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet" href="styles.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Static Template</title>
+   </head>
+   <body>
+      <header>
+         <div class="left-header">
+            <div class="logo">
+               <img src="media/logo.png" alt="logo" />
+               <span class="logo-name">Ninja Studio</span>
+            </div>
+            <div class="favorites"><span>favorites</span></div>
+         </div>
+         <div class="right-header">
+         <div class="serach-bar">
+            <div class="search-icon">
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="search-input">
+               <input type="text" name="search-input" placeholder="Search" />
+            </div>
+            <div class="voice-icon">
+               <i class="fa-solid fa-microphone"></i>
+            </div>
+         </div>
+         <div class="notification-icon">
+            <i class="fa-solid fa-bell"></i>
+         </div>
+         <div class="profile-section">
+            <img src="./media/profile-photo.jpg">
+         </div>
+      </header>
+      <main>
+         <div class="main-left">
+            <div class="cards">
+               <div class="main-right-list-card-wrapper">
+                  <div class="card">
+                     <img src="./media//careusels/carousel1.jpg" alt="" class="img-adjust" />
+                  </div>
+               </div>
+               <div class="main-right-list-card-wrapper">
+                  <div class="card">
+                     <img src="./media//careusels/carousel2.jpg" alt="" class="img-adjust" />
+                  </div>
+               </div>
+               <div class="main-right-list-card-wrapper">
+                  <div class="card">
+                     <img src="./media//careusels/carousel3.jpg" alt="" class="img-adjust" />
+                  </div>
+               </div>
+            </div>
+            <div class="latest-release">
+               <div class="latest-release-title fw-600">
+                  <span>Latest Release</span>
+               </div>
+               <div class="latest-release-cards">
+                     <div class="latest-release-card" onclick="toggleVisibility()"">
+                           <div class="latest-release-card-photo">
+                              <div class="latest-release-card-resume">
+                                 <i class="fa-solid fa-pause"></i>
+                              </div>
+                              <img class="img-adjust" src="./media/latest-realase-english/roar.jpg" alt="photo" />
+                           </div>
+                           <div class="latest-release-card-title">
+                              <span>
+                              Onism
+                              </span>
+                              <span>
+                              AUG 11,2017
+                              </span>
+                           </div>
+                           <div class="latest-release-card-timeline">
+                              <span>
+                              <i class="fa-solid fa-ellipsis"></i>
+                              </span>
+                              <span>
+                              4:44
+                              </span>
+                           </div>
+                        </div>
+                  <div class="latest-release-card" onclick="toggleVisibility()"">
+                     <div class="latest-release-card-photo">
+                        <div class="latest-release-card-resume">
+                           <i class="fa-solid fa-pause"></i>
+                        </div>
+                        <img class="img-adjust" src="./media/latest-realase-english/roar.jpg" alt="photo" />
+                     </div>
+                     <div class="latest-release-card-title">
+                        <span>
+                        Onism
+                        </span>
+                        <span>
+                        AUG 11,2017
+                        </span>
+                     </div>
+                     <div class="latest-release-card-timeline">
+                        <span>
+                        <i class="fa-solid fa-ellipsis"></i>
+                        </span>
+                        <span>
+                        4:44
+                        </span>
+                     </div>
+                  </div>
+                  <div class="latest-release-card" onclick="toggleVisibility()"">
+                        <div class="latest-release-card-photo">
+                           <div class="latest-release-card-resume">
+                              <i class="fa-solid fa-pause"></i>
+                           </div>
+                           <img class="img-adjust" src="./media/latest-realase-english/roar.jpg" alt="photo" />
+                        </div>
+                        <div class="latest-release-card-title">
+                           <span>
+                           Onism
+                           </span>
+                           <span>
+                           AUG 11,2017
+                           </span>
+                        </div>
+                        <div class="latest-release-card-timeline">
+                           <span>
+                           <i class="fa-solid fa-ellipsis"></i>
+                           </span>
+                           <span>
+                           4:44
+                           </span>
+                        </div>
+                     </div>
+
+                     <div class="latest-release-card" onclick="toggleVisibility()"">
+                           <div class="latest-release-card-photo">
+                              <div class="latest-release-card-resume">
+                                 <i class="fa-solid fa-pause"></i>
+                              </div>
+                              <img class="img-adjust" src="./media/latest-realase-english/roar.jpg" alt="photo" />
+                           </div>
+                           <div class="latest-release-card-title">
+                              <span>
+                              Onism
+                              </span>
+                              <span>
+                              AUG 11,2017
+                              </span>
+                           </div>
+                           <div class="latest-release-card-timeline">
+                              <span>
+                              <i class="fa-solid fa-ellipsis"></i>
+                              </span>
+                              <span>
+                              4:44
+                              </span>
+                           </div>
+                        </div>
+               </div>
+            </div>
+            <div class="popular-artist fw-600">
+               <div class="popular-artist-title">
+                  Popular Artists
+               </div>
+               <div class="popular-artist-list-container">
+                  <div class="popular-artist-list">
+                     <div class="popular-artist-details">
+                        <div class="popular-artist-image border-radius-round">
+                           <img class="img-adjust border-radius-round"
+                              src="./media/popular-artists/CamilaCabello.jpg">
+                           <div class="popular-artist-name">Camila Cabello</div>
+                        </div>
+                     </div>
+                     <div class="popular-artist-details">
+                        <div class="popular-artist-image border-radius-round">
+                           <img class="img-adjust border-radius-round" src="./media/popular-artists/KatyPerry.jpg">
+                        </div>
+                        <div class="popular-artist-name">Katy Perry</div>
+                     </div>
+                     <div class="popular-artist-details">
+                        <div class="popular-artist-image border-radius-round">
+                           <img class="img-adjust border-radius-round" src="./media/popular-artists/Lil-wayne.jpg">
+                           <div class="popular-artist-name">Lil wayne</div>
+                        </div>
+                     </div>
+                     <div class="popular-artist-details">
+                        <div class="popular-artist-image border-radius-round">
+                           <img class="img-adjust border-radius-round" src="./media/popular-artists/adele.jpg">
+                           <div class="popular-artist-name">Adele</div>
+                        </div>
+                     </div>
+                     <div class="popular-artist-details">
+                        <div class="popular-artist-image border-radius-round">
+                           <img class="img-adjust border-radius-round"
+                              src="./media/popular-artists/billieEilish.jpg">
+                           <div class="popular-artist-name">billie Eilish</div>
+                        </div>
+                     </div>
+                     <div class="popular-artist-details">
+                        <div class="popular-artist-image border-radius-round">
+                           <img class="img-adjust border-radius-round" src="./media/popular-artists/BrunoMars.jpg">
+                           <div class="popular-artist-name">Bruno Mars</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="music-types center-by-flex">
+               <div class="music-types-list">
+                  <div class="music-types-card border-radius-round">
+                     <span class="music-types-name disco_music_type_font">Chill</span>
+                     <img class="img-adjust border-radius-round" src="media/music-themes/chill.jpg">
+                  </div>
+                  <div class="music-types-card border-radius-round">
+                     <span class="music-types-name disco_music_type_font">Love</span>
+                     <img class="img-adjust border-radius-round" src="media/music-themes/love.jpg">
+                  </div>
+                  <div class="music-types-card border-radius-round">
+                     <span class="music-types-name disco_music_type_font">Pop</span>
+                     <img class="img-adjust border-radius-round" src="media/music-themes/pop.jpg">
+                  </div>
+                  <div class="music-types-card border-radius-round">
+                     <span class="music-types-name disco_music_type_font">Retro</span>
+                     <img class="img-adjust border-radius-round" src="media/music-themes/retro.jpg">
+                  </div>
+                  <div class="music-types-card border-radius-round">
+                     <span class="music-types-name disco_music_type_font">Workout</span>
+                     <img class="img-adjust border-radius-round" src="media/music-themes/workout.jpg">
+                  </div>
+                  <div class="music-types-card border-radius-round">
+                     <span class="music-types-name disco_music_type_font">Rock</span>
+                     <img class="img-adjust border-radius-round" src="media/music-themes/rock.jpg">
+                  </div>
+               </div>
+            </div>
+            <div class="disco center-by-flex">
+               <div class="disco-list">
+                  <div class="disco-card ml-0">
+                     <span class="disco-name disco_music_type_font">Chill</span>
+                     <img class="img-adjust disco-img" src="media/careusels/carousel1.jpg">
+                  </div>
+                  <div class="disco-card">
+                     <span class="disco-name disco_music_type_font">Chill</span>
+                     <img class="img-adjust disco-img" src="media/careusels/carousel2.jpg">
+                  </div>
+                  <div class="disco-card mr-0">
+                     <span class="disco-name disco_music_type_font">Chill</span>
+                     <img class="img-adjust disco-img" src="media/careusels/carousel3.jpg">
+                  </div>
+               </div>
+            </div>
+            <div class="lastest-lang">
+               <div class="popular-artist-title">
+                  Latest English
+               </div>
+               <div class="lastest-lang-list">
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-english/I'llWait.jpg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           I'll Wait
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           Aug 11, 2013
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-english/let-me-go.jpg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           let me go
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           July 17, 2000
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-english/qurantine.jpg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           qurantine clean
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           Dec 08, 2023
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-english/roar.jpg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           Roar
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           March 28, 1999
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-english/ily.jpg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           ily
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           Jan 01, 2017
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="lastest-lang">
+               <div class="popular-artist-title">
+                  Latest Hindi
+               </div>
+               <div class="lastest-lang-list">
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-hindi/baarish.jpeg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           baarish
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           Aug 11, 2013
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-hindi/galiyaan.jpg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           galiyaan
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           July 17, 2000
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-hindi/sunshine.jpg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           give me some sunshine
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           Dec 08, 2023
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-hindi/kaun-tujhe.jpg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           kaun tujhe
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           March 28, 1999
+                        </div>
+                     </div>
+                  </div>
+                  <div class="lastest-lang-card">
+                     <div class="lastest-lang-card-img">
+                        <img class="img-adjust" src="media/latest-hindi/tera-ban-jaunga.jpg">
+                     </div>
+                     <div class="lastest-lang-card-content">
+                        <div class="lastest-lang-card-name">
+                           tera ban jaunga
+                        </div>
+                        <div class="lastest-lang-card-date">
+                           Jan 01, 2017
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="main-right">
+            <div class="main-right-header">
+               <span class="fs-1_3rem">
+               Queue
+               </span>
+               <span class="main-right-header-right">
+               <span>
+               Queue
+               </span>
+               <span>
+               <i class="fa-solid fa-chevron-down"></i>
+               </span>
+               </span>
+            </div>
+            <div class="main-right-list">
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>03</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/pop.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Pop
+                     </span>
+                     <span>
+                     desum
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>04</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/retro.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Retro
+                     </span>
+                     <span>
+                     apple
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>05</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/rock.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Rock
+                     </span>
+                     <span>
+                     pop
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>06</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/workout.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Workout
+                     </span>
+                     <span>
+                     hard
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>03</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/pop.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Pop
+                     </span>
+                     <span>
+                     desum
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>04</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/retro.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Retro
+                     </span>
+                     <span>
+                     apple
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>05</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/rock.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Rock
+                     </span>
+                     <span>
+                     pop
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>06</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/workout.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Workout
+                     </span>
+                     <span>
+                     hard
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>03</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/pop.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Pop
+                     </span>
+                     <span>
+                     desum
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>04</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/retro.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Retro
+                     </span>
+                     <span>
+                     apple
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>05</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/rock.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Rock
+                     </span>
+                     <span>
+                     pop
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>06</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/workout.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Workout
+                     </span>
+                     <span>
+                     hard
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>03</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/pop.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Pop
+                     </span>
+                     <span>
+                     desum
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>04</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/retro.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Retro
+                     </span>
+                     <span>
+                     apple
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>05</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/rock.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Rock
+                     </span>
+                     <span>
+                     pop
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>06</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/workout.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Workout
+                     </span>
+                     <span>
+                     hard
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>03</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/pop.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Pop
+                     </span>
+                     <span>
+                     desum
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>04</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/retro.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Retro
+                     </span>
+                     <span>
+                     apple
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>05</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/rock.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Rock
+                     </span>
+                     <span>
+                     pop
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>06</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/workout.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Workout
+                     </span>
+                     <span>
+                     hard
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>01</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/chill.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Mirage
+                     </span>
+                     <span>
+                     else
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+               <div class="main-right-list-card">
+                  <div class="main-right-list-card-srNo center-by-flex">
+                     <span>02</span>
+                  </div>
+                  <div class="main-right-list-card-img center-by-flex">
+                     <img class="img-adjust" src="media/music-themes/love.jpg" alt="theme">
+                  </div>
+                  <div class="main-right-list-card-title center-by-flex-left">
+                     <span class="fs-120">
+                     Love
+                     </span>
+                     <span>
+                     catus
+                     </span>
+                  </div>
+                  <div class="main-right-list-card-like center-by-flex">
+                     <i class="fa-regular fa-heart"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <div class="main-bottom">
+         <div class="main-bottom-container">
+            <div class="main-bottom-left">
+               <div class="main-bottom-left-img">
+                  <img class="img-adjust" src="media/popular-artists/BrunoMars.jpg" >
+               </div>
+               <div class="main-bottom-left-name">
+                  <span>
+                  Onism by Johnson
+                  </span>
+                  <span>
+                  John Lenon
+                  </span>
+               </div>
+               <div class="main-bottom-left-symbol">
+                  <span>
+                  <i class="fa-regular fa-heart"></i>
+                  </span>
+                  <span>
+                  <i class="fa-solid fa-ban"></i>
+                  </span>
+               </div>
+            </div>
+            <div class="main-bottom-middle">
+               <div class="main-bottom-middle-container">
+                  <div class="main-bottom-middle-container-control">
+                     <span><i class="fa-solid fa-shuffle"></i></span>
+                     <span><i class="fa-solid fa-backward-step"></i></span>
+                     <span style="font-size:1.2rem"><i class="fa-solid fa-circle-pause"></i></span>                        
+                     <span><i class="fa-solid fa-forward-step"></i></span>
+                     <span><i class="fa-solid fa-repeat"></i></span>
+                  </div>
+                  <div class="main-bottom-middle-container-bar">
+                     <span>1.39</span>
+                     <span id="range-bar"><input type="range" id="bar" value="30"></span>
+                     <span>4.56</span>
+                  </div>
+               </div>
+            </div>
+            <div class="main-bottom-right">
+               <div class="main-bottom-right-list">
+                  <ul>
+                     <li><i class="fa-solid fa-list-check"></i></li>
+                     <li><i class="fa-solid fa-battery-half"></i></li>
+                     <li><i class="fa-solid fa-volume-high"></i></li>
+                     <li><input type="range" value="45" id=""></li>
+                     <li><i class="fa-solid fa-up-right-and-down-left-from-center"></i></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="script.js"></script>
+</html>
